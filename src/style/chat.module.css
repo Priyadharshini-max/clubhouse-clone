@@ -1,0 +1,117 @@
+.chatDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2em 0 2em;
+}
+
+.chatCard {
+  background-color: #e7e4d5;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+}
+.chatCard > div {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0em;
+}
+
+.chatCard > div > div {
+  margin-left: 0.5em;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.chatCard span {
+  font-size: 1.3em;
+  color: black;
+  font-weight: 500;
+  margin: 0 0 0 0;
+}
+
+.chatCard p {
+  font-weight: 600;
+  font-size: 0.8em;
+  font-family: 500;
+  line-height: 1;
+  margin: 0 0 0 0;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  width: 195px;
+}
+
+.chatCard .profile_img {
+  width: 63px;
+  border-radius: 2.2em;
+}
+
+.chatCard a img {
+  transform: rotate(-180deg);
+  color: black;
+  width: 11px;
+  margin: 0 0 0 380px;
+}
+
+.PrivateChathead {
+  text-align: center;
+  padding: 0.5em 0.5em;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+.PrivateChathead img:first-child {
+  width: 15px;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.userImg {
+  width: 45px;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  transform: translatey(-50%);
+  border-radius: 1.6em;
+}
+
+.PrivateChathead h3 {
+  margin-left: 15%;
+  margin-top: 2px;
+  font-size: 1.5em;
+}
+
+.App_header {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 110%;
+}
+
+.App_header form input[type="text"] {
+  width: 230px;
+  border-radius: 1em;
+  border: none;
+  background-color: white;
+  padding: 0.5em;
+}
+.App_header form button {
+  border-radius: 1em;
+  border: none;
+  background-color: rgba(66, 66, 233, 0.801);
+  padding: 0.5em;
+  font-weight: 500;
+}
+
+.chatMsgs {
+  position: absolute;
+  left: 86%;
+  top: 0%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 50%;
+}

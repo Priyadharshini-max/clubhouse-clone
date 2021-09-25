@@ -1,0 +1,58 @@
+.roomCardContainer {
+  background-color: white;
+  padding: 1em 1em;
+  border-radius: 1em;
+  border: none;
+  margin-top: 0.5em;
+}
+
+.roomCardContainer h6 {
+  font-size: 0.79em;
+  color: black;
+  font-weight: 500;
+}
+
+.roomCardContainer h2 {
+  font-size: 0.9em;
+  font-weight: 600;
+  line-height: 1;
+  color: black;
+}
+
+.roomMembers img {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.6em;
+}
+
+.roomMembers {
+  display: flex;
+  align-items: flex-start;
+}
+
+.roomMembers p {
+  font-size: 0.975em;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 0.5em;
+  color: black;
+}
+
+.roomMembers > div:first-child {
+  position: relative;
+  margin-right: 2em;
+}
+.roomMembers > div:first-child > img:nth-child(2) {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+}
+
+.roomMembers p span {
+  padding-right: 8px !important;
+}
+
+/* svg {
+  font-size: 16px !important;
+  color: rgba(0, 0, 0, 0.712);
+} */
